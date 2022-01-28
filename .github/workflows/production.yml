@@ -14,6 +14,5 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     concurrency: production
-    steps:
-      - name: deploy
+    steps: 
       - run: echo "DEPLOYMENT"
